@@ -89,7 +89,7 @@
   <div class="fld"><label>Account</label><select name="active"><option value="">All</option><option value="1" >Activated</option><option value="0" >Not activated</option></select></div>
   <div class="fld"><label>Profession</label><select name="profession"><option value="">All</option><option value="1" >Frontend developer</option><option value="2" >Backend developer</option><option value="3" >Fullstack developer</option><option value="4" >Mobile developer</option><option value="5" >QA engineer</option><option value="6" >UI/UX designer</option><option value="7" >DevOps engineer</option><option value="8" >Data analyst</option><option value="9" >Business analyst</option><option value="10" >Project manager</option><option value="11" >System administrator</option><option value="12" >Network engineer</option><option value="13" >Graphic designer</option><option value="14" >SMM / marketing</option><option value="15" >Other</option></select></div>
   <div class="fld"><label>Per page</label><select name="per"><option selected>25</option><option >50</option><option >100</option></select></div>
-  <input type="hidden" name="sort" value="-date">
+  <div class="fld"><label>Sort by</label><select name="sort"><option value="-date" selected>Newest first</option><option value="date" >Oldest first</option><option value="name" >Name A–Z</option><option value="-name" >Name Z–A</option></select></div>
   <div class="actions"><button class="btn btn-primary">Apply</button></div>
 </form>
 <div class="tbl-wrap"><table class="tbl">
@@ -107,7 +107,7 @@
     <td class="muted">2</td>
     <td><a href="#">Осмонова Елена Эркиновна</a></td>
     <td>grad46@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Applied Informatics</span></div></td>
+    <td><div>IUIT · <span class="muted">Applied Informatics</span></div></td>
     <td><div>2024</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>QA engineer</td>
@@ -116,7 +116,7 @@
     <td class="muted">3</td>
     <td><a href="#">Ибраимова Мээрим Эркиновна</a></td>
     <td>grad52@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Software Engineering</span></div></td>
+    <td><div>IUIT · <span class="muted">Software Engineering</span></div></td>
     <td><div>2012</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>DevOps engineer</td>
@@ -125,7 +125,7 @@
     <td class="muted">4</td>
     <td><a href="#">Мамытов Пётр Бакыт уулу</a></td>
     <td>grad27@demo.kg</td>
-    <td><div class="nowrap">KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div></td>
+    <td><div>KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div></td>
     <td><div>2019</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Business analyst</td>
@@ -134,7 +134,7 @@
     <td class="muted">5</td>
     <td><a href="panel-graduates-2.html">Жумабаев Айбек Алмаз уулу</a></td>
     <td>grad1@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Tourism and Service</span></div></td>
+    <td><div>KITE · <span class="muted">Tourism and Service</span></div></td>
     <td><div>2015</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Project manager</td>
@@ -143,7 +143,7 @@
     <td class="muted">6</td>
     <td><a href="#">Токтогулова Нургуль Талант кызы</a></td>
     <td>grad26@demo.kg</td>
-    <td><div class="nowrap">KOMTEHNO · <span class="muted">Computer Networks</span></div></td>
+    <td><div>KOMTEHNO · <span class="muted">Computer Networks</span></div></td>
     <td><div>2022</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>Business analyst</td>
@@ -152,7 +152,7 @@
     <td class="muted">7</td>
     <td><a href="#">Абдыкадыров Азамат Бакыт уулу</a></td>
     <td>grad5@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Economics</span></div></td>
+    <td><div>IUIT · <span class="muted">Economics</span></div></td>
     <td><div>2016</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>Mobile developer</td>
@@ -161,7 +161,7 @@
     <td class="muted">8</td>
     <td><a href="#">Ким Айбек Марат уулу</a></td>
     <td>grad39@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Accounting</span></div></td>
+    <td><div>KITE · <span class="muted">Accounting</span></div></td>
     <td><div>2013</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>SMM / marketing</td>
@@ -170,7 +170,7 @@
     <td class="muted">9</td>
     <td><a href="#">Асанова Бегимай Эркиновна</a></td>
     <td>grad44@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Tourism and Service</span></div></td>
+    <td><div>KITE · <span class="muted">Tourism and Service</span></div></td>
     <td><div>2024</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>Business analyst</td>
@@ -179,7 +179,7 @@
     <td class="muted">10</td>
     <td><a href="#">Ким Жылдыз Бакытовна</a></td>
     <td>grad22@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Economics</span></div></td>
+    <td><div>IUIT · <span class="muted">Economics</span></div></td>
     <td><div>2026</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>Frontend developer</td>
@@ -188,7 +188,7 @@
     <td class="muted">11</td>
     <td><a href="#">Иванов Пётр Кубан уулу</a></td>
     <td>grad13@demo.kg</td>
-    <td><div class="nowrap">KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div><div class="nowrap">KITE · <span class="muted">Accounting</span></div></td>
+    <td><div>KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div><div>KITE · <span class="muted">Accounting</span></div></td>
     <td><div>2015</div><div>2019</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Frontend developer</td>
@@ -197,7 +197,7 @@
     <td class="muted">12</td>
     <td><a href="#">Кадырова Асель Кубановна</a></td>
     <td>grad18@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Tourism and Service</span></div></td>
+    <td><div>KITE · <span class="muted">Tourism and Service</span></div></td>
     <td><div>2019</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>Mobile developer</td>
@@ -206,7 +206,7 @@
     <td class="muted">13</td>
     <td><a href="#">Иманалиева Мээрим Эркин кызы</a></td>
     <td>grad58@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Tourism and Service</span></div></td>
+    <td><div>KITE · <span class="muted">Tourism and Service</span></div></td>
     <td><div>2026</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Backend developer</td>
@@ -215,7 +215,7 @@
     <td class="muted">14</td>
     <td><a href="#">Токтогулов Данияр Кубан уулу</a></td>
     <td>grad29@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Management</span></div></td>
+    <td><div>IUIT · <span class="muted">Management</span></div></td>
     <td><div>2016</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Backend developer</td>
@@ -224,7 +224,7 @@
     <td class="muted">15</td>
     <td><a href="#">Сыдыков Нурлан Маратович</a></td>
     <td>grad17@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Tourism and Service</span></div></td>
+    <td><div>KITE · <span class="muted">Tourism and Service</span></div></td>
     <td><div>2020</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Graphic designer</td>
@@ -233,7 +233,7 @@
     <td class="muted">16</td>
     <td><a href="#">Абдыкадырова Елена Кубановна</a></td>
     <td>grad32@demo.kg</td>
-    <td><div class="nowrap">KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div><div class="nowrap">KITE · <span class="muted">Graphic Design</span></div></td>
+    <td><div>KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div><div>KITE · <span class="muted">Graphic Design</span></div></td>
     <td><div>2013</div><div>2022</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Backend developer</td>
@@ -242,7 +242,7 @@
     <td class="muted">17</td>
     <td><a href="#">Иманалиев Нурлан Алмаз уулу</a></td>
     <td>grad35@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Economics</span></div></td>
+    <td><div>IUIT · <span class="muted">Economics</span></div></td>
     <td><div>2014</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Other</td>
@@ -251,7 +251,7 @@
     <td class="muted">18</td>
     <td><a href="#">Асанова Жылдыз Кубановна</a></td>
     <td>grad40@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Economics</span></div><div class="nowrap">KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div></td>
+    <td><div>IUIT · <span class="muted">Economics</span></div><div>KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div></td>
     <td><div>2015</div><div>2020</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>System administrator</td>
@@ -260,7 +260,7 @@
     <td class="muted">19</td>
     <td><a href="#">Сыдыков Улан Талант уулу</a></td>
     <td>grad57@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Information Systems and Technologies</span></div></td>
+    <td><div>IUIT · <span class="muted">Information Systems and Technologies</span></div></td>
     <td><div>2016</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>UI/UX designer</td>
@@ -269,7 +269,7 @@
     <td class="muted">20</td>
     <td><a href="#">Абдыкадырова Жылдыз Талантовна</a></td>
     <td>grad50@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Applied Informatics</span></div></td>
+    <td><div>IUIT · <span class="muted">Applied Informatics</span></div></td>
     <td><div>2013</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Frontend developer</td>
@@ -278,7 +278,7 @@
     <td class="muted">21</td>
     <td><a href="#">Иманалиев Бакыт Бакытович</a></td>
     <td>grad3@demo.kg</td>
-    <td><div class="nowrap">KOMTEHNO · <span class="muted">Computer Networks</span></div><div class="nowrap">KITE · <span class="muted">Tourism and Service</span></div></td>
+    <td><div>KOMTEHNO · <span class="muted">Computer Networks</span></div><div>KITE · <span class="muted">Tourism and Service</span></div></td>
     <td><div>2023</div><div>2025</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Project manager</td>
@@ -287,7 +287,7 @@
     <td class="muted">22</td>
     <td><a href="#">Иманалиев Айбек Талантович</a></td>
     <td>grad31@demo.kg</td>
-    <td><div class="nowrap">KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div></td>
+    <td><div>KOMTEHNO · <span class="muted">Programming in Computer Systems</span></div></td>
     <td><div>2023</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>UI/UX designer</td>
@@ -296,7 +296,7 @@
     <td class="muted">23</td>
     <td><a href="#">Сыдыков Улан Марат уулу</a></td>
     <td>grad41@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Graphic Design</span></div></td>
+    <td><div>KITE · <span class="muted">Graphic Design</span></div></td>
     <td><div>2012</div></td>
     <td><span class="badge mute">Not employed</span></td>
     <td>Business analyst</td>
@@ -305,7 +305,7 @@
     <td class="muted">24</td>
     <td><a href="#">Асанов Тимур Бакыт уулу</a></td>
     <td>grad43@demo.kg</td>
-    <td><div class="nowrap">IUIT · <span class="muted">Applied Informatics</span></div></td>
+    <td><div>IUIT · <span class="muted">Applied Informatics</span></div></td>
     <td><div>2014</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Graphic designer</td>
@@ -314,7 +314,7 @@
     <td class="muted">25</td>
     <td><a href="#">Ким Елена Алмаз кызы</a></td>
     <td>grad6@demo.kg</td>
-    <td><div class="nowrap">KITE · <span class="muted">Tourism and Service</span></div><div class="nowrap">IUIT · <span class="muted">Software Engineering</span></div></td>
+    <td><div>KITE · <span class="muted">Tourism and Service</span></div><div>IUIT · <span class="muted">Software Engineering</span></div></td>
     <td><div>2019</div><div>2026</div></td>
     <td><span class="badge ok">Employed</span></td>
     <td>Graphic designer</td>

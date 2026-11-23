@@ -89,7 +89,7 @@
   <div class="fld"><label>Аккаунт</label><select name="active"><option value="">Баары</option><option value="1" >Активдештирилген</option><option value="0" >Активдештирилген эмес</option></select></div>
   <div class="fld"><label>Кесиби</label><select name="profession"><option value="">Баары</option><option value="1" >Frontend-иштеп чыгуучу</option><option value="2" >Backend-иштеп чыгуучу</option><option value="3" >Fullstack-иштеп чыгуучу</option><option value="4" >Mobile-иштеп чыгуучу</option><option value="5" >QA-инженер</option><option value="6" >UI/UX-дизайнер</option><option value="7" >DevOps-инженер</option><option value="8" >Маалымат аналитиги</option><option value="9" >Бизнес-аналитик</option><option value="10" >Долбоор менеджери</option><option value="11" >Системалык администратор</option><option value="12" >Тармак инженери</option><option value="13" >Графикалык дизайнер</option><option value="14" >SMM / маркетинг</option><option value="15" >Башка</option></select></div>
   <div class="fld"><label>Бетте</label><select name="per"><option selected>25</option><option >50</option><option >100</option></select></div>
-  <input type="hidden" name="sort" value="-date">
+  <div class="fld"><label>Иреттөө</label><select name="sort"><option value="-date" selected>Адегенде жаңылары</option><option value="date" >Адегенде эскилери</option><option value="name" >Алфавит боюнча А–Я</option><option value="-name" >Алфавит боюнча Я–А</option></select></div>
   <div class="actions"><button class="btn btn-primary">Колдонуу</button></div>
 </form>
 <div class="tbl-wrap"><table class="tbl">
@@ -107,7 +107,7 @@
     <td class="muted">2</td>
     <td><a href="#">Осмонова Елена Эркиновна</a></td>
     <td>grad46@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
     <td><div>2024</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>QA-инженер</td>
@@ -116,7 +116,7 @@
     <td class="muted">3</td>
     <td><a href="#">Ибраимова Мээрим Эркиновна</a></td>
     <td>grad52@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Программалык инженерия</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Программалык инженерия</span></div></td>
     <td><div>2012</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>DevOps-инженер</td>
@@ -125,7 +125,7 @@
     <td class="muted">4</td>
     <td><a href="#">Мамытов Пётр Бакыт уулу</a></td>
     <td>grad27@demo.kg</td>
-    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
+    <td><div>КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
     <td><div>2019</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Бизнес-аналитик</td>
@@ -134,7 +134,7 @@
     <td class="muted">5</td>
     <td><a href="panel-graduates-2.html">Жумабаев Айбек Алмаз уулу</a></td>
     <td>grad1@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
     <td><div>2015</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Долбоор менеджери</td>
@@ -143,7 +143,7 @@
     <td class="muted">6</td>
     <td><a href="#">Токтогулова Нургуль Талант кызы</a></td>
     <td>grad26@demo.kg</td>
-    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик тармактар</span></div></td>
+    <td><div>КОМТЕХНО · <span class="muted">Компьютердик тармактар</span></div></td>
     <td><div>2022</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>Бизнес-аналитик</td>
@@ -152,7 +152,7 @@
     <td class="muted">7</td>
     <td><a href="#">Абдыкадыров Азамат Бакыт уулу</a></td>
     <td>grad5@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Экономика</span></div></td>
     <td><div>2016</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>Mobile-иштеп чыгуучу</td>
@@ -161,7 +161,7 @@
     <td class="muted">8</td>
     <td><a href="#">Ким Айбек Марат уулу</a></td>
     <td>grad39@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Бухгалтердик эсеп</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Бухгалтердик эсеп</span></div></td>
     <td><div>2013</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>SMM / маркетинг</td>
@@ -170,7 +170,7 @@
     <td class="muted">9</td>
     <td><a href="#">Асанова Бегимай Эркиновна</a></td>
     <td>grad44@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
     <td><div>2024</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>Бизнес-аналитик</td>
@@ -179,7 +179,7 @@
     <td class="muted">10</td>
     <td><a href="#">Ким Жылдыз Бакытовна</a></td>
     <td>grad22@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Экономика</span></div></td>
     <td><div>2026</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>Frontend-иштеп чыгуучу</td>
@@ -188,7 +188,7 @@
     <td class="muted">11</td>
     <td><a href="#">Иванов Пётр Кубан уулу</a></td>
     <td>grad13@demo.kg</td>
-    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div><div class="nowrap">КИТЭ · <span class="muted">Бухгалтердик эсеп</span></div></td>
+    <td><div>КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div><div>КИТЭ · <span class="muted">Бухгалтердик эсеп</span></div></td>
     <td><div>2015</div><div>2019</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Frontend-иштеп чыгуучу</td>
@@ -197,7 +197,7 @@
     <td class="muted">12</td>
     <td><a href="#">Кадырова Асель Кубановна</a></td>
     <td>grad18@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
     <td><div>2019</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>Mobile-иштеп чыгуучу</td>
@@ -206,7 +206,7 @@
     <td class="muted">13</td>
     <td><a href="#">Иманалиева Мээрим Эркин кызы</a></td>
     <td>grad58@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
     <td><div>2026</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Backend-иштеп чыгуучу</td>
@@ -215,7 +215,7 @@
     <td class="muted">14</td>
     <td><a href="#">Токтогулов Данияр Кубан уулу</a></td>
     <td>grad29@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Менеджмент</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Менеджмент</span></div></td>
     <td><div>2016</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Backend-иштеп чыгуучу</td>
@@ -224,7 +224,7 @@
     <td class="muted">15</td>
     <td><a href="#">Сыдыков Нурлан Маратович</a></td>
     <td>grad17@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
     <td><div>2020</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Графикалык дизайнер</td>
@@ -233,7 +233,7 @@
     <td class="muted">16</td>
     <td><a href="#">Абдыкадырова Елена Кубановна</a></td>
     <td>grad32@demo.kg</td>
-    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div><div class="nowrap">КИТЭ · <span class="muted">Графикалык дизайн</span></div></td>
+    <td><div>КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div><div>КИТЭ · <span class="muted">Графикалык дизайн</span></div></td>
     <td><div>2013</div><div>2022</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Backend-иштеп чыгуучу</td>
@@ -242,7 +242,7 @@
     <td class="muted">17</td>
     <td><a href="#">Иманалиев Нурлан Алмаз уулу</a></td>
     <td>grad35@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Экономика</span></div></td>
     <td><div>2014</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Башка</td>
@@ -251,7 +251,7 @@
     <td class="muted">18</td>
     <td><a href="#">Асанова Жылдыз Кубановна</a></td>
     <td>grad40@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Экономика</span></div><div>КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
     <td><div>2015</div><div>2020</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>Системалык администратор</td>
@@ -260,7 +260,7 @@
     <td class="muted">19</td>
     <td><a href="#">Сыдыков Улан Талант уулу</a></td>
     <td>grad57@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Маалыматтык системалар жана технологиялар</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Маалыматтык системалар жана технологиялар</span></div></td>
     <td><div>2016</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>UI/UX-дизайнер</td>
@@ -269,7 +269,7 @@
     <td class="muted">20</td>
     <td><a href="#">Абдыкадырова Жылдыз Талантовна</a></td>
     <td>grad50@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
     <td><div>2013</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Frontend-иштеп чыгуучу</td>
@@ -278,7 +278,7 @@
     <td class="muted">21</td>
     <td><a href="#">Иманалиев Бакыт Бакытович</a></td>
     <td>grad3@demo.kg</td>
-    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик тармактар</span></div><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>КОМТЕХНО · <span class="muted">Компьютердик тармактар</span></div><div>КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
     <td><div>2023</div><div>2025</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Долбоор менеджери</td>
@@ -287,7 +287,7 @@
     <td class="muted">22</td>
     <td><a href="#">Иманалиев Айбек Талантович</a></td>
     <td>grad31@demo.kg</td>
-    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
+    <td><div>КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
     <td><div>2023</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>UI/UX-дизайнер</td>
@@ -296,7 +296,7 @@
     <td class="muted">23</td>
     <td><a href="#">Сыдыков Улан Марат уулу</a></td>
     <td>grad41@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Графикалык дизайн</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Графикалык дизайн</span></div></td>
     <td><div>2012</div></td>
     <td><span class="badge mute">Иштебейт</span></td>
     <td>Бизнес-аналитик</td>
@@ -305,7 +305,7 @@
     <td class="muted">24</td>
     <td><a href="#">Асанов Тимур Бакыт уулу</a></td>
     <td>grad43@demo.kg</td>
-    <td><div class="nowrap">ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
+    <td><div>ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
     <td><div>2014</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Графикалык дизайнер</td>
@@ -314,7 +314,7 @@
     <td class="muted">25</td>
     <td><a href="#">Ким Елена Алмаз кызы</a></td>
     <td>grad6@demo.kg</td>
-    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div><div class="nowrap">ЭИТУ · <span class="muted">Программалык инженерия</span></div></td>
+    <td><div>КИТЭ · <span class="muted">Туризм жана тейлөө</span></div><div>ЭИТУ · <span class="muted">Программалык инженерия</span></div></td>
     <td><div>2019</div><div>2026</div></td>
     <td><span class="badge ok">Иштейт</span></td>
     <td>Графикалык дизайнер</td>
