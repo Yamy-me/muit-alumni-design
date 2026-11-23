@@ -59,7 +59,7 @@
   
 <h1>Бүтүрүүчүнү каттоо</h1>
 <p class="sub">Жылдызчасы бар талаалар милдеттүү. Аты-жөнүңүздү дипломдогудай кириллица менен жазыңыз.</p>
-<form method="post" class="form card" novalidate><input type="hidden" name="csrfmiddlewaretoken" value="QJ4I4DzjOLvXQS86sSfzdodjUzV1IVjb1sWvlUt5GgRHuodyC8NalwRkcx9D5V8d">
+<form method="post" class="form card" novalidate><input type="hidden" name="csrfmiddlewaretoken" value="b0Pm6Fd6qBIjiisLYqKm1x8wM5POzadPTFIzPaRaN4uApBGl84TWtRY4L5TGwyzC">
   
   <div class="fields three">
     <div class="fld">
@@ -85,17 +85,10 @@
 
   </div>
   <div class="fields two">
-    <div class="fld">
+    <div class="fld span2">
   <label for="id_email">Email <span class="req" aria-hidden="true">*</span></label>
   <input type="email" name="email" maxlength="254" required id="id_email">
-  <span class="help">Ага тастыктоо каты келет.</span>
-  
-</div>
-
-    <div class="fld">
-  <label for="id_phone">Телефон</label>
-  <input type="text" name="phone" maxlength="20" id="id_phone">
-  
+  <span class="help">Бул сиздин логиниңиз. Ага тастыктоо каты келет.</span>
   
 </div>
 
@@ -114,187 +107,12 @@
 </div>
 
   </div>
-  <div class="form-section">
-    <h2>Билими</h2>
-    <div class="fields two">
-  <div class="fld"><label for="id_institution">Мекеме <span class="req">*</span></label>
-    <select name="institution" id="id_institution" data-inst-select="#id_direction" required>
-      <option value="">—</option><option value="1" >ЭИТУ</option><option value="2" >КОМТЕХНО</option><option value="3" >КИТЭ</option>
-    </select></div>
-  <div class="fld"><label for="id_direction">Багыт <span class="req">*</span></label>
-    <select name="direction" id="id_direction" required>
-      <option value="">Адегенде мекемени тандаңыз</option><option value="9" data-inst="3" >Бухгалтердик эсеп</option><option value="6" data-inst="2" >Компьютердик системаларда программалоо</option><option value="1" data-inst="1" >Программалык инженерия</option><option value="10" data-inst="3" >Графикалык дизайн</option><option value="2" data-inst="1" >Маалыматтык системалар жана технологиялар</option><option value="7" data-inst="2" >Компьютердик тармактар</option><option value="8" data-inst="2" >Маалыматтык коопсуздук</option><option value="3" data-inst="1" >Колдонмо информатика</option><option value="11" data-inst="3" >Туризм жана тейлөө</option><option value="4" data-inst="1" >Экономика</option><option value="5" data-inst="1" >Менеджмент</option>
-    </select></div>
-  <div class="fld">
-  <label for="id_year">Бүтүргөн жылы <span class="req" aria-hidden="true">*</span></label>
-  <select name="year" required id="id_year">
-  <option value="" selected>—</option>
-
-  <option value="2027">2027</option>
-
-  <option value="2026">2026</option>
-
-  <option value="2025">2025</option>
-
-  <option value="2024">2024</option>
-
-  <option value="2023">2023</option>
-
-  <option value="2022">2022</option>
-
-  <option value="2021">2021</option>
-
-  <option value="2020">2020</option>
-
-  <option value="2019">2019</option>
-
-  <option value="2018">2018</option>
-
-  <option value="2017">2017</option>
-
-  <option value="2016">2016</option>
-
-  <option value="2015">2015</option>
-
-  <option value="2014">2014</option>
-
-  <option value="2013">2013</option>
-
-  <option value="2012">2012</option>
-
-  <option value="2011">2011</option>
-
-  <option value="2010">2010</option>
-
-  <option value="2009">2009</option>
-
-  <option value="2008">2008</option>
-
-  <option value="2007">2007</option>
-
-  <option value="2006">2006</option>
-
-  <option value="2005">2005</option>
-
-  <option value="2004">2004</option>
-
-  <option value="2003">2003</option>
-
-  <option value="2002">2002</option>
-
-  <option value="2001">2001</option>
-
-  <option value="2000">2000</option>
-
-  <option value="1999">1999</option>
-
-  <option value="1998">1998</option>
-
-  <option value="1997">1997</option>
-
-  <option value="1996">1996</option>
-
-  <option value="1995">1995</option>
-
-  <option value="1994">1994</option>
-
-  <option value="1993">1993</option>
-
-  <option value="1992">1992</option>
-
-  <option value="1991">1991</option>
-
-  <option value="1990">1990</option>
-
-</select>
-  
-  
-</div>
-
-  <div class="fld">
-  <label for="id_group">Топ</label>
-  <input type="text" name="group" maxlength="30" id="id_group">
-  <span class="help">Мисалы, ПИ-1-19</span>
-  
-</div>
-
-</div>
-
-  </div>
-  <div class="form-section">
-    <h2>Иш менен камсыз болуу</h2>
-    <div class="form">
-  <div class="fld">
-  <label for="">Азыр иштеп жатасызбы?</label>
-  <div class="radios"><label><input type="radio" name="employed" value="True" id="id_employed_0"> Ооба</label><label><input type="radio" name="employed" value="False" id="id_employed_1" checked> Жок</label></div>
-  
-  
-</div>
-
-  <div class="fields two" data-show-if="employed=True">
-    <div class="fld">
-  <label for="id_company_name">Компания <span class="req" aria-hidden="true">*</span></label>
-  <input type="text" name="company_name" maxlength="200" id="id_company_name">
-  
-  
-</div>
-
-    <div class="fld">
-  <label for="id_position">Кызматы <span class="req" aria-hidden="true">*</span></label>
-  <input type="text" name="position" maxlength="200" id="id_position">
-  
-  
-</div>
-
-  </div>
-  <div class="fld">
-  <label for="id_profession">Кесиби</label>
-  <select name="profession" id="id_profession">
-  <option value="" selected>---------</option>
-
-  <option value="1">Frontend-разработчик</option>
-
-  <option value="2">Backend-разработчик</option>
-
-  <option value="3">Fullstack-разработчик</option>
-
-  <option value="4">Mobile-разработчик</option>
-
-  <option value="5">QA-инженер</option>
-
-  <option value="6">UI/UX-дизайнер</option>
-
-  <option value="7">DevOps-инженер</option>
-
-  <option value="8">Аналитик данных</option>
-
-  <option value="9">Бизнес-аналитик</option>
-
-  <option value="10">Project manager</option>
-
-  <option value="11">Системный администратор</option>
-
-  <option value="12">Сетевой инженер</option>
-
-  <option value="13">Графический дизайнер</option>
-
-  <option value="14">SMM / маркетинг</option>
-
-  <option value="15">Другое</option>
-
-</select>
-  <span class="help">Эмне менен алектенесиз же алектенгиңиз келет.</span>
-  
-</div>
-
-</div>
-
-  </div>
+  <p class="help">Катталгандан кийин билимиңизди жана иштеген жериңизди көрсөтүңүз: антпесе аккаунт активдешпейт.</p>
   <div class="form-section form">
     <label class="check"><input type="checkbox" name="consent"  required> <span>Жеке маалыматтарымды иштетүүгө макулмун жана кабыл алам: <a href="rules.html" target="_blank">колдонуу эрежелери</a>. <span class="req">*</span></span></label>
     
     <div class="fld">
-  <label for="id_captcha">Текшерүү: канча болот 7 + 1? <span class="req">*</span></label>
+  <label for="id_captcha">Текшерүү: канча болот 6 + 8? <span class="req">*</span></label>
   <input type="number" name="captcha" id="id_captcha" inputmode="numeric" required style="max-width:140px">
   <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
   

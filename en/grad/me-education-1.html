@@ -72,7 +72,7 @@
     
 <a class="crumb" href="me.html">← Education and work</a>
 <div class="page-head"><h1>Edit education</h1></div>
-<form method="post" class="card form" novalidate style="max-width:760px"><input type="hidden" name="csrfmiddlewaretoken" value="UlagF7Vjo9xaPMADxAI5EXbREYB0XGLxjzVp4kz2lnEO03w1mxlwVcCJ8aSQTV7S">
+<form method="post" class="card form" novalidate style="max-width:760px"><input type="hidden" name="csrfmiddlewaretoken" value="lBQNV8dSmz8Av4pAYHJBblczLqVE5F069U0FhrdaSaWF9r1eE35rS7Na00ptcf7q">
   <div class="fields two">
   <div class="fld"><label for="id_institution">Institution <span class="req">*</span></label>
     <select name="institution" id="id_institution" data-inst-select="#id_direction" required>
@@ -84,7 +84,9 @@
     </select></div>
   <div class="fld">
   <label for="id_year">Graduation year <span class="req" aria-hidden="true">*</span></label>
-  <select name="year" id="id_year">
+  <select name="year" required id="id_year">
+  <option value="">—</option>
+
   <option value="2027">2027</option>
 
   <option value="2026">2026</option>

@@ -72,7 +72,7 @@
     
 <a class="crumb" href="me.html">← Билим жана иш</a>
 <div class="page-head"><h1>Билимди өзгөртүү</h1></div>
-<form method="post" class="card form" novalidate style="max-width:760px"><input type="hidden" name="csrfmiddlewaretoken" value="7w1VA1ZgKcQp1jKe6HeghsPR3yU1J749l9xVtFd2FMzjYVhnNdDjSWDeM6Qibf3Q">
+<form method="post" class="card form" novalidate style="max-width:760px"><input type="hidden" name="csrfmiddlewaretoken" value="qmbnkINbdAjRzdFU2Xb8xy4v1z070SL9UmOFwNMKWxFWp3PVTNwdrXq4vnQJ3VpJ">
   <div class="fields two">
   <div class="fld"><label for="id_institution">Мекеме <span class="req">*</span></label>
     <select name="institution" id="id_institution" data-inst-select="#id_direction" required>
@@ -84,7 +84,9 @@
     </select></div>
   <div class="fld">
   <label for="id_year">Бүтүргөн жылы <span class="req" aria-hidden="true">*</span></label>
-  <select name="year" id="id_year">
+  <select name="year" required id="id_year">
+  <option value="">—</option>
+
   <option value="2027">2027</option>
 
   <option value="2026">2026</option>
