@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ky">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бүтүрүүчүлөр</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../static/core/base.css">
+<link rel="stylesheet" href="../../static/core/app.css">
+</head>
+<body class="has-bnav">
+<a class="skip" href="#main">Мазмунга өтүү</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></symbol>
+  <symbol id="i-build" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 7h1M14 7h1M9 11h1M14 11h1M9 15h1M14 15h1M10 21v-3h4v3"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/><path d="M9 13l8-6"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9c0 3 3 6 6 6l1-1.5-2-1-1 1c-1-.5-2-1.5-2.5-2.5l1-1-1-2z"/></symbol>
+  <symbol id="i-login" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h5v16h-5M10 8l4 4-4 4M14 12H3"/></symbol>
+  <symbol id="i-logout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4H5v16h5M14 8l4 4-4 4M18 12H8"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c.8-3.5 3.5-5 7-5s6.2 1.5 7 5M16 4.5a3.5 3.5 0 0 1 0 7M19 15c1.6.7 2.6 2.4 3 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5h13L22 12v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6z"/></symbol>
+  <symbol id="i-cog" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap" style="max-width:none">
+    <a class="brand" href="../guest/home.html">
+      <span class="brand-mark" aria-hidden="true">МУИТ</span>
+      <span><span class="brand-name" style="display:block">Бүтүрүүчүлөр ассоциациясы</span><span class="brand-sub" style="display:block">ЭИТУ окуу комплекси</span></span>
+    </a>
+    
+    <div class="top-actions">
+      <div class="lang" role="group" aria-label="Интерфейс тили">
+        <a href="../../ru/admin/panel-graduates.html" aria-pressed="false" style="display:grid;place-items:center;min-width:44px;min-height:40px;text-decoration:none;font:600 13px/1 var(--font-body);color:var(--muted)">RU</a><a href="../../ky/admin/panel-graduates.html" aria-pressed="true" style="display:grid;place-items:center;min-width:44px;min-height:40px;text-decoration:none;font:600 13px/1 var(--font-body);background:var(--text);color:#fff">KG</a><a href="../../en/admin/panel-graduates.html" aria-pressed="false" style="display:grid;place-items:center;min-width:44px;min-height:40px;text-decoration:none;font:600 13px/1 var(--font-body);color:var(--muted)">EN</a>
+      </div>
+      
+        <a class="btn btn-ghost" href="profile.html" title="admin@muit.kg"><svg class="od-icon" aria-hidden="true"><use href="#i-user"/></svg><span class="btn-login-text">Профиль</span></a>
+        <a class="btn btn-ghost" href="../guest/home.html" aria-label="Чыгуу"><svg class="od-icon" aria-hidden="true"><use href="#i-logout"/></svg></a>
+      
+    </div>
+  </div>
+</header>
+
+
+<div class="shell">
+  <aside class="side" aria-label="Кабинет менюсу"><nav>
+
+    <a href="panel.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-chart"/></svg>Статистика</a>
+    <a href="panel-graduates.html" aria-current="page"><svg class="od-icon" aria-hidden="true"><use href="#i-users"/></svg>Бүтүрүүчүлөр</a>
+    <a href="panel-companies.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-build"/></svg>Иш берүүчүлөр<span class="count">1</span></a>
+    <a href="panel-vacancies.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-list"/></svg>Вакансиялар</a>
+    <a href="panel-responses.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-send"/></svg>Жооптор</a>
+    <a href="panel-check.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-check"/></svg>Аты-жөн тизмесин салыштыруу</a>
+    <a href="panel-tickets.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-inbox"/></svg>Кайрылуулар<span class="count">1</span></a>
+    <div class="sep"></div>
+    <a href="#"><svg class="od-icon" aria-hidden="true"><use href="#i-cog"/></svg>Маалымдамалар жана тексттер</a>
+
+  </nav></aside>
+  <main id="main" class="content">
+    
+
+    
+<div class="page-head"><div><h1>Бүтүрүүчүлөр</h1><p>Табылды: 60</p></div>
+  <div class="actions">
+    <a class="btn btn-primary" href="#"><svg class="od-icon" aria-hidden="true"><use href="#i-download"/></svg>Excel&#x27;ге жүктөө</a>
+    <a class="btn btn-ghost" href="#">Кеңейтилген отчёт</a>
+  </div></div>
+<form method="get" class="filters card">
+  <div class="fld" style="grid-column:1/-1"><label for="q">Аты-жөнү, email, телефон боюнча издөө</label><input type="search" id="q" name="q" value=""></div>
+  <div class="fld"><label>Мекеме</label><select name="institution" data-inst-select="#f-dir"><option value="">Баары</option><option value="1" >ЭИТУ</option><option value="2" >КОМТЕХНО</option><option value="3" >КИТЭ</option></select></div>
+  <div class="fld"><label>Багыт</label><select name="direction" id="f-dir"><option value="">Баары</option><option value="9" data-inst="3" >Бухгалтердик эсеп</option><option value="6" data-inst="2" >Компьютердик системаларда программалоо</option><option value="1" data-inst="1" >Программалык инженерия</option><option value="10" data-inst="3" >Графикалык дизайн</option><option value="2" data-inst="1" >Маалыматтык системалар жана технологиялар</option><option value="7" data-inst="2" >Компьютердик тармактар</option><option value="8" data-inst="2" >Маалыматтык коопсуздук</option><option value="3" data-inst="1" >Колдонмо информатика</option><option value="11" data-inst="3" >Туризм жана тейлөө</option><option value="4" data-inst="1" >Экономика</option><option value="5" data-inst="1" >Менеджмент</option></select></div>
+  <div class="fld"><label>Жылдан</label><select name="year_from"><option value="">—</option><option >2027</option><option >2026</option><option >2025</option><option >2024</option><option >2023</option><option >2022</option><option >2021</option><option >2020</option><option >2019</option><option >2018</option><option >2017</option><option >2016</option><option >2015</option><option >2014</option><option >2013</option><option >2012</option><option >2011</option><option >2010</option><option >2009</option><option >2008</option><option >2007</option><option >2006</option><option >2005</option><option >2004</option><option >2003</option><option >2002</option><option >2001</option><option >2000</option><option >1999</option><option >1998</option><option >1997</option><option >1996</option><option >1995</option><option >1994</option><option >1993</option><option >1992</option><option >1991</option><option >1990</option></select></div>
+  <div class="fld"><label>Жылга чейин</label><select name="year_to"><option value="">—</option><option >2027</option><option >2026</option><option >2025</option><option >2024</option><option >2023</option><option >2022</option><option >2021</option><option >2020</option><option >2019</option><option >2018</option><option >2017</option><option >2016</option><option >2015</option><option >2014</option><option >2013</option><option >2012</option><option >2011</option><option >2010</option><option >2009</option><option >2008</option><option >2007</option><option >2006</option><option >2005</option><option >2004</option><option >2003</option><option >2002</option><option >2001</option><option >2000</option><option >1999</option><option >1998</option><option >1997</option><option >1996</option><option >1995</option><option >1994</option><option >1993</option><option >1992</option><option >1991</option><option >1990</option></select></div>
+  <div class="fld"><label>Топ</label><input type="text" name="group" value=""></div>
+  <div class="fld"><label>Иштейт</label><select name="employed"><option value="">Баары</option><option value="1" >Ооба</option><option value="0" >Жок</option></select></div>
+  <div class="fld"><label>Кесиби</label><select name="profession"><option value="">Баары</option><option value="1" >Frontend-иштеп чыгуучу</option><option value="2" >Backend-иштеп чыгуучу</option><option value="3" >Fullstack-иштеп чыгуучу</option><option value="4" >Mobile-иштеп чыгуучу</option><option value="5" >QA-инженер</option><option value="6" >UI/UX-дизайнер</option><option value="7" >DevOps-инженер</option><option value="8" >Маалымат аналитиги</option><option value="9" >Бизнес-аналитик</option><option value="10" >Долбоор менеджери</option><option value="11" >Системалык администратор</option><option value="12" >Тармак инженери</option><option value="13" >Графикалык дизайнер</option><option value="14" >SMM / маркетинг</option><option value="15" >Башка</option></select></div>
+  <div class="fld"><label>Бетте</label><select name="per"><option selected>25</option><option >50</option><option >100</option></select></div>
+  <input type="hidden" name="sort" value="-date">
+  <div class="actions"><button class="btn btn-primary">Колдонуу</button></div>
+</form>
+<div class="tbl-wrap"><table class="tbl">
+  <thead><tr><th>№</th><th><a href="#" class="">Аты-жөнү</a></th><th><a href="#" class="">Email</a></th><th><a href="#" class="">Билими</a></th><th><a href="#" class="">Жыл</a></th><th><a href="#" class="">Абалы</a></th><th><a href="#" class="">Кесиби</a></th><th><a href="#" class="on">Каттоо ↓</a></th></tr></thead>
+  <tbody><tr>
+    <td class="muted">1</td>
+    <td><a href="#">Осмонова Елена Эркиновна</a></td>
+    <td>grad46@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
+    <td><div>2024</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>QA-инженер</td>
+    <td class="nowrap muted">23.11.2026</td>
+  </tr><tr>
+    <td class="muted">2</td>
+    <td><a href="#">Ибраимова Мээрим Эркиновна</a></td>
+    <td>grad52@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Программалык инженерия</span></div></td>
+    <td><div>2012</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>DevOps-инженер</td>
+    <td class="nowrap muted">17.11.2026</td>
+  </tr><tr>
+    <td class="muted">3</td>
+    <td><a href="#">Мамытов Пётр Бакыт уулу</a></td>
+    <td>grad27@demo.kg</td>
+    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
+    <td><div>2019</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Бизнес-аналитик</td>
+    <td class="nowrap muted">16.11.2026</td>
+  </tr><tr>
+    <td class="muted">4</td>
+    <td><a href="panel-graduates-2.html">Жумабаев Айбек Алмаз уулу</a></td>
+    <td>grad1@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>2015</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Долбоор менеджери</td>
+    <td class="nowrap muted">09.11.2026</td>
+  </tr><tr>
+    <td class="muted">5</td>
+    <td><a href="#">Токтогулова Нургуль Талант кызы</a></td>
+    <td>grad26@demo.kg</td>
+    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик тармактар</span></div></td>
+    <td><div>2022</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Бизнес-аналитик</td>
+    <td class="nowrap muted">08.11.2026</td>
+  </tr><tr>
+    <td class="muted">6</td>
+    <td><a href="#">Абдыкадыров Азамат Бакыт уулу</a></td>
+    <td>grad5@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div></td>
+    <td><div>2016</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Mobile-иштеп чыгуучу</td>
+    <td class="nowrap muted">03.11.2026</td>
+  </tr><tr>
+    <td class="muted">7</td>
+    <td><a href="#">Ким Айбек Марат уулу</a></td>
+    <td>grad39@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Бухгалтердик эсеп</span></div></td>
+    <td><div>2013</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>SMM / маркетинг</td>
+    <td class="nowrap muted">21.10.2026</td>
+  </tr><tr>
+    <td class="muted">8</td>
+    <td><a href="#">Асанова Бегимай Эркиновна</a></td>
+    <td>grad44@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>2024</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Бизнес-аналитик</td>
+    <td class="nowrap muted">19.10.2026</td>
+  </tr><tr>
+    <td class="muted">9</td>
+    <td><a href="#">Ким Жылдыз Бакытовна</a></td>
+    <td>grad22@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div></td>
+    <td><div>2026</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Frontend-иштеп чыгуучу</td>
+    <td class="nowrap muted">16.10.2026</td>
+  </tr><tr>
+    <td class="muted">10</td>
+    <td><a href="#">Иванов Пётр Кубан уулу</a></td>
+    <td>grad13@demo.kg</td>
+    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div><div class="nowrap">КИТЭ · <span class="muted">Бухгалтердик эсеп</span></div></td>
+    <td><div>2015</div><div>2019</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Frontend-иштеп чыгуучу</td>
+    <td class="nowrap muted">06.10.2026</td>
+  </tr><tr>
+    <td class="muted">11</td>
+    <td><a href="#">Кадырова Асель Кубановна</a></td>
+    <td>grad18@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>2019</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Mobile-иштеп чыгуучу</td>
+    <td class="nowrap muted">03.10.2026</td>
+  </tr><tr>
+    <td class="muted">12</td>
+    <td><a href="#">Иманалиева Мээрим Эркин кызы</a></td>
+    <td>grad58@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>2026</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Backend-иштеп чыгуучу</td>
+    <td class="nowrap muted">01.10.2026</td>
+  </tr><tr>
+    <td class="muted">13</td>
+    <td><a href="#">Токтогулов Данияр Кубан уулу</a></td>
+    <td>grad29@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Менеджмент</span></div></td>
+    <td><div>2016</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Backend-иштеп чыгуучу</td>
+    <td class="nowrap muted">30.09.2026</td>
+  </tr><tr>
+    <td class="muted">14</td>
+    <td><a href="#">Сыдыков Нурлан Маратович</a></td>
+    <td>grad17@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>2020</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Графикалык дизайнер</td>
+    <td class="nowrap muted">27.09.2026</td>
+  </tr><tr>
+    <td class="muted">15</td>
+    <td><a href="#">Абдыкадырова Елена Кубановна</a></td>
+    <td>grad32@demo.kg</td>
+    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div><div class="nowrap">КИТЭ · <span class="muted">Графикалык дизайн</span></div></td>
+    <td><div>2013</div><div>2022</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Backend-иштеп чыгуучу</td>
+    <td class="nowrap muted">26.09.2026</td>
+  </tr><tr>
+    <td class="muted">16</td>
+    <td><a href="#">Иманалиев Нурлан Алмаз уулу</a></td>
+    <td>grad35@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div></td>
+    <td><div>2014</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Башка</td>
+    <td class="nowrap muted">16.09.2026</td>
+  </tr><tr>
+    <td class="muted">17</td>
+    <td><a href="#">Асанова Жылдыз Кубановна</a></td>
+    <td>grad40@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Экономика</span></div><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
+    <td><div>2015</div><div>2020</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Системалык администратор</td>
+    <td class="nowrap muted">12.09.2026</td>
+  </tr><tr>
+    <td class="muted">18</td>
+    <td><a href="#">Сыдыков Улан Талант уулу</a></td>
+    <td>grad57@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Маалыматтык системалар жана технологиялар</span></div></td>
+    <td><div>2016</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>UI/UX-дизайнер</td>
+    <td class="nowrap muted">12.09.2026</td>
+  </tr><tr>
+    <td class="muted">19</td>
+    <td><a href="#">Абдыкадырова Жылдыз Талантовна</a></td>
+    <td>grad50@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
+    <td><div>2013</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Frontend-иштеп чыгуучу</td>
+    <td class="nowrap muted">10.09.2026</td>
+  </tr><tr>
+    <td class="muted">20</td>
+    <td><a href="#">Иманалиев Бакыт Бакытович</a></td>
+    <td>grad3@demo.kg</td>
+    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик тармактар</span></div><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div></td>
+    <td><div>2023</div><div>2025</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Долбоор менеджери</td>
+    <td class="nowrap muted">06.09.2026</td>
+  </tr><tr>
+    <td class="muted">21</td>
+    <td><a href="#">Иманалиев Айбек Талантович</a></td>
+    <td>grad31@demo.kg</td>
+    <td><div class="nowrap">КОМТЕХНО · <span class="muted">Компьютердик системаларда программалоо</span></div></td>
+    <td><div>2023</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>UI/UX-дизайнер</td>
+    <td class="nowrap muted">03.09.2026</td>
+  </tr><tr>
+    <td class="muted">22</td>
+    <td><a href="#">Сыдыков Улан Марат уулу</a></td>
+    <td>grad41@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Графикалык дизайн</span></div></td>
+    <td><div>2012</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Бизнес-аналитик</td>
+    <td class="nowrap muted">02.09.2026</td>
+  </tr><tr>
+    <td class="muted">23</td>
+    <td><a href="#">Асанов Тимур Бакыт уулу</a></td>
+    <td>grad43@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Колдонмо информатика</span></div></td>
+    <td><div>2014</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Графикалык дизайнер</td>
+    <td class="nowrap muted">01.09.2026</td>
+  </tr><tr>
+    <td class="muted">24</td>
+    <td><a href="#">Ким Елена Алмаз кызы</a></td>
+    <td>grad6@demo.kg</td>
+    <td><div class="nowrap">КИТЭ · <span class="muted">Туризм жана тейлөө</span></div><div class="nowrap">ЭИТУ · <span class="muted">Программалык инженерия</span></div></td>
+    <td><div>2019</div><div>2026</div></td>
+    <td><span class="badge ok">Иштейт</span></td>
+    <td>Графикалык дизайнер</td>
+    <td class="nowrap muted">28.08.2026</td>
+  </tr><tr>
+    <td class="muted">25</td>
+    <td><a href="#">Абдыкадырова Нургуль Бакытовна</a></td>
+    <td>grad16@demo.kg</td>
+    <td><div class="nowrap">ЭИТУ · <span class="muted">Программалык инженерия</span></div></td>
+    <td><div>2023</div></td>
+    <td><span class="badge mute">Иштебейт</span></td>
+    <td>Бизнес-аналитик</td>
+    <td class="nowrap muted">23.08.2026</td>
+  </tr></tbody>
+</table></div>
+<nav class="pager" aria-label="Барактар">
+  <span class="muted">Бет 1 / 3 · бардыгы 60</span>
+  <span class="pages">
+    
+    <a class="btn btn-ghost btn-sm" href="#">→</a>
+  </span>
+</nav>
+
+
+  </main>
+</div>
+<nav class="bnav" aria-label="Кабинет менюсу">
+
+    <a href="panel.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-chart"/></svg>Статистика</a>
+    <a href="panel-graduates.html" aria-current="page"><svg class="od-icon" aria-hidden="true"><use href="#i-users"/></svg>Бүтүрүүчүлөр</a>
+    <a href="panel-companies.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-build"/></svg>Компаниялар</a>
+    <a href="panel-check.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-check"/></svg>Салыштыруу</a>
+    <a href="panel-tickets.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-inbox"/></svg>Кайрылуулар</a>
+
+</nav>
+
+<footer class="app">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="../guest/home.html"><span class="brand-mark" aria-hidden="true">МУИТ</span><span class="brand-name">Бүтүрүүчүлөр ассоциациясы</span></a>
+        <p style="margin-top:var(--s3)">ЭИТУ окуу комплекси: ЭИТУ университети, КОМТЕХНО жана КИТЭ колледждери. Бишкек, Кыргызстан.</p>
+      </div>
+      <div>
+        <h3>Жардам</h3>
+        <ul>
+          <li><a href="../guest/support.html">Көйгөй тууралуу билдирүү</a></li>
+          <li><a href="../guest/rules.html">Эрежелер жана маалыматты иштетүүгө макулдук</a></li>
+          <li><a href="mailto:support@muit.kg">support@muit.kg</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Байланыштар</h3>
+        <div class="social">
+          <a href="https://t.me/" target="_blank" rel="noopener"><svg class="od-icon" aria-hidden="true"><use href="#i-tg"/></svg>Telegram</a>
+          <a href="https://wa.me/" target="_blank" rel="noopener"><svg class="od-icon" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <p class="copy">© 2026 ЭИТУ ОК. Бүтүрүүчүлөр ассоциациясы.</p>
+  </div>
+</footer>
+
+
+<script src="../../static/core/app.js" defer></script>
+
+<script>document.addEventListener("submit",e=>{e.preventDefault();alert("Это превью дизайна: формы здесь не отправляются.")},true)</script></body>
+</html>

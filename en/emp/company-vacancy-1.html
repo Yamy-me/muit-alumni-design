@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IUIT Alumni Association</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../static/core/base.css">
+<link rel="stylesheet" href="../../static/core/app.css">
+</head>
+<body class="has-bnav">
+<a class="skip" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></symbol>
+  <symbol id="i-build" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 7h1M14 7h1M9 11h1M14 11h1M9 15h1M14 15h1M10 21v-3h4v3"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/><path d="M9 13l8-6"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9c0 3 3 6 6 6l1-1.5-2-1-1 1c-1-.5-2-1.5-2.5-2.5l1-1-1-2z"/></symbol>
+  <symbol id="i-login" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h5v16h-5M10 8l4 4-4 4M14 12H3"/></symbol>
+  <symbol id="i-logout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4H5v16h5M14 8l4 4-4 4M18 12H8"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c.8-3.5 3.5-5 7-5s6.2 1.5 7 5M16 4.5a3.5 3.5 0 0 1 0 7M19 15c1.6.7 2.6 2.4 3 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5h13L22 12v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6z"/></symbol>
+  <symbol id="i-cog" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap" style="max-width:none">
+    <a class="brand" href="../guest/home.html">
+      <span class="brand-mark" aria-hidden="true">МУИТ</span>
+      <span><span class="brand-name" style="display:block">Alumni Association</span><span class="brand-sub" style="display:block">IUIT Education Complex</span></span>
+    </a>
+    
+    <div class="top-actions">
+      <div class="lang" role="group" aria-label="Interface language">
+        <a href="../../ru/emp/company-vacancy-1.html" aria-pressed="false" style="display:grid;place-items:center;min-width:44px;min-height:40px;text-decoration:none;font:600 13px/1 var(--font-body);color:var(--muted)">RU</a><a href="../../ky/emp/company-vacancy-1.html" aria-pressed="false" style="display:grid;place-items:center;min-width:44px;min-height:40px;text-decoration:none;font:600 13px/1 var(--font-body);color:var(--muted)">KG</a><a href="../../en/emp/company-vacancy-1.html" aria-pressed="true" style="display:grid;place-items:center;min-width:44px;min-height:40px;text-decoration:none;font:600 13px/1 var(--font-body);background:var(--text);color:#fff">EN</a>
+      </div>
+      
+        <a class="btn btn-ghost" href="profile.html" title="hr1@demo.kg"><svg class="od-icon" aria-hidden="true"><use href="#i-user"/></svg><span class="btn-login-text">Profile</span></a>
+        <a class="btn btn-ghost" href="../guest/home.html" aria-label="Sign out"><svg class="od-icon" aria-hidden="true"><use href="#i-logout"/></svg></a>
+      
+    </div>
+  </div>
+</header>
+
+
+<div class="shell">
+  <aside class="side" aria-label="Account menu"><nav>
+
+    <a href="company.html" aria-current="page"><svg class="od-icon" aria-hidden="true"><use href="#i-list"/></svg>Jobs</a>
+    <a href="company-responses.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-inbox"/></svg>Applications</a>
+    <a href="company-profile.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-build"/></svg>Company profile</a>
+    <a href="profile.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-user"/></svg>Account</a>
+    <div class="sep"></div>
+    <a href="support.html"><svg class="od-icon" aria-hidden="true"><use href="#i-help"/></svg>Report a problem</a>
+
+  </nav></aside>
+  <main id="main" class="content">
+    
+
+    
+<a class="crumb" href="company.html">← Jobs</a>
+<div class="page-head"><h1>Junior Python-разработчик</h1></div>
+
+<form method="post" class="card form" novalidate style="max-width:860px"><input type="hidden" name="csrfmiddlewaretoken" value="fEORq5iPlGCNQyRBLPYXzD21niKmDnfS4ECEq2IZOvUXMiWHpDmfjIXaZSVV1tRp">
+  <div class="fields two">
+    <div class="fld span2">
+  <label for="id_title">Job title <span class="req" aria-hidden="true">*</span></label>
+  <input type="text" name="title" value="Junior Python-разработчик" maxlength="200" required id="id_title">
+  
+  
+</div>
+
+    <div class="fld">
+  <label for="id_profession">Profession <span class="req" aria-hidden="true">*</span></label>
+  <select name="profession" required id="id_profession">
+  <option value="">---------</option>
+
+  <option value="1">Frontend developer</option>
+
+  <option value="2" selected>Backend developer</option>
+
+  <option value="3">Fullstack developer</option>
+
+  <option value="4">Mobile developer</option>
+
+  <option value="5">QA engineer</option>
+
+  <option value="6">UI/UX designer</option>
+
+  <option value="7">DevOps engineer</option>
+
+  <option value="8">Data analyst</option>
+
+  <option value="9">Business analyst</option>
+
+  <option value="10">Project manager</option>
+
+  <option value="11">System administrator</option>
+
+  <option value="12">Network engineer</option>
+
+  <option value="13">Graphic designer</option>
+
+  <option value="14">SMM / marketing</option>
+
+  <option value="15">Other</option>
+
+</select>
+  
+  
+</div>
+
+    <div class="fld">
+  <label for="id_city">City <span class="req" aria-hidden="true">*</span></label>
+  <input type="text" name="city" value="Бишкек" maxlength="100" required id="id_city">
+  
+  
+</div>
+
+    <div class="fld">
+  <label for="id_employment_type">Employment type <span class="req" aria-hidden="true">*</span></label>
+  <select name="employment_type" required id="id_employment_type">
+  <option value="">---------</option>
+
+  <option value="full">Полная занятость</option>
+
+  <option value="part">Частичная занятость</option>
+
+  <option value="intern" selected>Стажировка</option>
+
+  <option value="remote">Удалённо</option>
+
+</select>
+  
+  
+</div>
+
+    <div class="fld">
+  <label for="id_experience">Experience</label>
+  <select name="experience" id="id_experience">
+  <option value="">---------</option>
+
+  <option value="none">Без опыта</option>
+
+  <option value="lt1">До 1 года</option>
+
+  <option value="1-3">1–3 года</option>
+
+  <option value="3-6">3–6 лет</option>
+
+  <option value="gt6" selected>Более 6 лет</option>
+
+</select>
+  
+  
+</div>
+
+  </div>
+  <div class="fld">
+  <label for="id_duties">Responsibilities <span class="req" aria-hidden="true">*</span></label>
+  <textarea name="duties" cols="40" rows="5" required id="id_duties">
+Участвовать в разработке продукта
+Писать понятный код и тесты
+Работать в команде с наставником</textarea>
+  
+  
+</div>
+
+  <div class="fld">
+  <label for="id_requirements">Requirements <span class="req" aria-hidden="true">*</span></label>
+  <textarea name="requirements" cols="40" rows="4" required id="id_requirements">
+Выпускник МУИТ, КОМТЕХНО или КИТЭ
+Желание учиться
+Базовый английский</textarea>
+  
+  
+</div>
+
+  <div class="fld">
+  <label for="id_conditions">Conditions</label>
+  <textarea name="conditions" cols="40" rows="3" id="id_conditions">
+Официальное оформление
+Обучение за счёт компании</textarea>
+  
+  
+</div>
+
+  <div class="fields three">
+    <div class="fld">
+  <label for="id_salary_from">Salary from</label>
+  <input type="number" name="salary_from" min="0" id="id_salary_from">
+  
+  
+</div>
+
+    <div class="fld">
+  <label for="id_salary_to">Salary to</label>
+  <input type="number" name="salary_to" value="80000" min="0" id="id_salary_to">
+  
+  
+</div>
+
+    <div class="fld">
+  <label for="id_currency">Currency</label>
+  <select name="currency" id="id_currency">
+  <option value="KGS" selected>сом</option>
+
+  <option value="USD">$</option>
+
+  <option value="RUB">₽</option>
+
+</select>
+  
+  
+</div>
+
+  </div>
+  <div class="fld">
+  <label for="id_publish_until">Publish until</label>
+  <input type="date" name="publish_until" id="id_publish_until">
+  <span class="help">Leave empty for no end date. After this date the job is hidden automatically.</span>
+  
+</div>
+
+  <div class="actions"><button class="btn btn-primary">Publish</button><a class="btn btn-ghost" href="company.html">Cancel</a></div>
+</form>
+
+  </main>
+</div>
+<nav class="bnav" aria-label="Account menu">
+
+    <a href="company.html" aria-current="page"><svg class="od-icon" aria-hidden="true"><use href="#i-list"/></svg>Jobs</a>
+    <a href="company-responses.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-inbox"/></svg>Applications</a>
+    <a href="company-profile.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-build"/></svg>Company</a>
+    <a href="profile.html" ><svg class="od-icon" aria-hidden="true"><use href="#i-user"/></svg>Account</a>
+
+</nav>
+
+<footer class="app">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="../guest/home.html"><span class="brand-mark" aria-hidden="true">МУИТ</span><span class="brand-name">Alumni Association</span></a>
+        <p style="margin-top:var(--s3)">IUIT Education Complex: IUIT university, KOMTEHNO and KITE colleges. Bishkek, Kyrgyzstan.</p>
+      </div>
+      <div>
+        <h3>Help</h3>
+        <ul>
+          <li><a href="support.html">Report a problem</a></li>
+          <li><a href="../guest/rules.html">Rules and data processing consent</a></li>
+          <li><a href="mailto:support@muit.kg">support@muit.kg</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contacts</h3>
+        <div class="social">
+          <a href="https://t.me/" target="_blank" rel="noopener"><svg class="od-icon" aria-hidden="true"><use href="#i-tg"/></svg>Telegram</a>
+          <a href="https://wa.me/" target="_blank" rel="noopener"><svg class="od-icon" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <p class="copy">© 2026 IUIT. Alumni Association.</p>
+  </div>
+</footer>
+
+
+<script src="../../static/core/app.js" defer></script>
+
+<script>document.addEventListener("submit",e=>{e.preventDefault();alert("Это превью дизайна: формы здесь не отправляются.")},true)</script></body>
+</html>
